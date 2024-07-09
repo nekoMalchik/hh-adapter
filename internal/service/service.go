@@ -1,12 +1,13 @@
 package service
 
 import (
-	"my-hh-adapter/internal/hh"
-	"my-hh-adapter/internal/repository"
+	"hh-adapter/internal/entity"
+	"hh-adapter/internal/hh"
+	"hh-adapter/internal/repository"
 )
 
 type VacancyService interface {
-	CreateJobs(vacancies []Vacancy) error
+	CreateJobs(vacancies []entity.Vacancy) error
 }
 
 type vacancyService struct {
@@ -21,7 +22,7 @@ func NewVacancyService(repo *repository.VacancyRepository, hhClient *hh.HHClient
 	}
 }
 
-func (s *vacancyService) CreateJobs(vacancies []Vacancy) error {
+func (s *vacancyService) CreateJobs(vacancies []entity.Vacancy) error {
 	// Ваш код для создания вакансий в БД
 	return nil
 }

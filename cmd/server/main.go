@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
+	"hh-adapter/internal/api"
+	"hh-adapter/internal/config"
+	"hh-adapter/internal/hh"
+	"hh-adapter/internal/repository"
+	"hh-adapter/internal/service"
 	"log"
-	"my-hh-adapter/internal/api"
-	"my-hh-adapter/internal/config"
-	"my-hh-adapter/internal/hh"
-	"my-hh-adapter/internal/repository"
-	"my-hh-adapter/internal/service"
 	"net/http"
 )
 
