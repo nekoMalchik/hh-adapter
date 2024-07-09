@@ -1,0 +1,7 @@
+server:
+  port: 8081
+db:
+  uri: 'mongodb://localhost:27017/test'
+  dbname: 'test'
+hh:
+  apikey: 'APPLSC5PEPV2IAA90AHF4HCOR9476BR4PEOG6URII746V57IIJGKIUL1160QU9OU'
